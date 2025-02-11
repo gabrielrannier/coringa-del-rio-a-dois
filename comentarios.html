@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comentários sobre Coringa 2 - Veja o que os fãs estão dizendo sobre o filme.">
+    <title>Comentários - Coringa 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ff4444;
+        }
+        .comment-form {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        .comment-form textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            background-color: #444444;
+            color: #ffffff;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .comment-form button {
+            background-color: #ff4444;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+        .comment-form button:hover {
+            background-color: #cc0000;
+        }
+        .comments {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .comment {
+            background-color: #444444;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        .comment:last-child {
+            margin-bottom: 0;
+        }
+        .comment .author {
+            font-weight: bold;
+            color: #ff4444;
+        }
+        .comment .date {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+            margin-left: 10px;
+        }
+        .comment .text {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Comentários - Coringa 2</h1>
+        <div class="comment-form">
+            <h2>Deixe seu comentário</h2>
+            <form>
+                <textarea placeholder="Escreva seu comentário aqui..." required></textarea>
+                <button type="submit">Enviar Comentário</button>
+            </form>
+        </div>
+
+        <div class="comments">
+            <h2>Comentários dos fãs</h2>
+            <div id="commentList">
+                <div class="comment">
+                    <div class="author">João Silva</div>
+                    <div class="date">10/10/2023</div>
+                    <div class="text">Filme incrível! A atuação do Joaquin Phoenix é de tirar o fôlego.</div>
+                </div>
+
+                <div class="comment">
+                    <div class="author">Maria Oliveira</div>
+                    <div class="date">09/10/2023</div>
+                    <div class="text">A atmosfera do filme é única. Recomendo a todos!</div>
+                </div>
+
+                <div class="comment">
+                    <div class="author">Carlos Souza</div>
+                    <div class="date">08/10/2023</div>
+                    <div class="text">O filme é uma obra-prima. Não perca!</div>
+                </div>
+
+                <div class="comment">
+                    <div class="author">Ana Costa</div>
+                    <div class="date">07/10/2023</div>
+                    <div class="text">A trilha sonora e a fotografia são impressionantes.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
