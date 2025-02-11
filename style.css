@@ -120,7 +120,6 @@ li:hover  {
     width: 90%;
     display: flex;
     grid-template-columns: repeat(3, 1rf);
-    row-gap: 20px;
     column-gap: 40px;
 }
 
